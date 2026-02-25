@@ -87,6 +87,15 @@ class ChoosingBestOffer extends AbstractFilter
         return <<<HTML
             <div style="font-family: Arial, sans-serif; line-height: 1.5; max-width: 800px; margin: 20px auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; background-color: #f9f9f9;">
                 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+                    <div style="margin-bottom: 20px; text-align: right;">
+                        <a 
+                            href="https://github.com/xsyze/keitaro_php_choosing_best_landing-offer/tree/main" 
+                            target="_blank" 
+                            style="display: inline-block; padding: 8px 14px; background-color: #007bff; color: #ffffff; text-decoration: none; border-radius: 4px; font-size: 14px;"
+                        >
+                            📘 Открыть инструкцию
+                        </a>
+                    </div>
                     <div style="flex: 1 1 48%; min-width: 300px;">
                         <div style="margin-bottom: 15px">
                             <label style="display:block;font-weight:bold;margin-bottom:5px;"> С чем работать: </label>
